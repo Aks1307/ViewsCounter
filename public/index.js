@@ -70,9 +70,9 @@ function dissplay(v, disId) {
 
 function updateCount(videoId, newval, oldval, disId, No) {
   var day = Number(document.getElementById("day").value)
-  var dummyadd = dummyviews(day, No)
+  var dummyadd = dummyviews(day, No-1)
   var total = newval + oldval + dummyadd;
-  console.log(total)
+  //console.log(total)
   firebase.database().ref(videoId).set(total);
   var count = firebase.database().ref(videoId);
   count.once('value', function (snapshot) {
@@ -197,7 +197,7 @@ document.getElementById('nine').addEventListener("click", () => {
 document.getElementById('ten').addEventListener("click", () => {
   var s10 = 0;
   s10++;
-  readd('vid10', s10, 'v10', 10);
+  readd('vten', s10, 'v10', 10);
 })
 
 //   console.log(v)
@@ -215,7 +215,7 @@ function display() {
   redy('vid7', 'v7');
   redy('vid8', 'v8');
   redy('vid9', 'v9');
-  redy('vid10', 'v10');
+  redy('vten', 'v10');
 
 
 
