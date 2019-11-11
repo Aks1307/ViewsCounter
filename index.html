@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="row">
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text">Enter Day to add Dummy views </span>
+        </div>
+        <input type="text" class="form-control" id="day">
+
+      </div>
+
+
+    </div>
+    <div id="he" class="row">
+      <h3>Select the video by clicking watch video to add dummy views</h3>
+    </div>
+
+    <div class="row">
+      <div id="s1" class="ui card">
+
+
+        <div class="content">
+          <div class="header">Sample 1</div>
+          <div id="light">
+            <a class="boxclose" id="boxclose" onclick="lightbox_close();"></a>
+            <video id="VisaChipCardVideo" width="700" controls>
+              <source src="s1.mp4" type="video/mp4">
+              <!--Browser does not support <video> tag -->
+            </video>
+          </div>
+
+          <div id="fade" onClick="lightbox_close();"></div>
+
+          <div>
+            <button id="sone" href="#" onclick="lightbox_open();">Watch video</button>
+          </div>
+        </div>
+        <div class="extra content">
+          <div class="meta">
+            <a>Views</a>
+          </div>
+          <div class="ui label">
+            <i class="eye icon"></i>
+            <div id="v1">
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- second sample -->
+
+      <div id="s1" class="ui card">
+
+
+        <div class="content">
+          <div class="header">Sample 2</div>
+          <div id="light">
+            <a class="boxclose" id="boxclose" onclick="lightbox_close();"></a>
+            <video id="VisaChipCardVideo" width="700" controls>
+              <source src="s1.mp4" type="video/mp4">
+              <!--Browser does not support <video> tag -->
+            </video>
+          </div>
+
+          <div id="fade" onClick="lightbox_close();"></div>
+
+          <div>
+            <button id="two" href="#" onclick="lightbox_open();">Watch video</button>
+          </div>
+        </div>
+        <div class="extra content">
+          <div class="meta">
+            <a>Views</a>
+          </div>
+          <div class="ui label">
+            <i class="eye icon"></i>
+            <div id="v2"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3rd -->
+
+      <div id="s1" class="ui card">
+
+
+        <div class="content">
+          <div class="header">Sample 3</div>
+          <div id="light">
+            <a class="boxclose" id="boxclose" onclick="lightbox_close();"></a>
+            <video id="VisaChipCardVideo" width="700" controls>
+              <source src="s1.mp4" type="video/mp4">
+              <!--Browser does not support <video> tag -->
+            </video>
+          </div>
+
+          <div id="fade" onClick="lightbox_close();"></div>
+
+          <div>
+            <button id="three" href="#" onclick="lightbox_open();">Watch video</button>
+          </div>
+        </div>
+        <div class="extra content">
+          <div class="meta">
+            <a>Views</a>
+          </div>
+          <div class="ui label">
+            <i class="eye icon"></i>
+            <div id="v3"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4th -->
+
+      <div id="s1" class="ui card">
+
+
+        <div class="content">
+          <div class="header">Sample 4</div>
+          <div id="light">
+            <a class="boxclose" id="boxclose" onclick="lightbox_close();"></a>
+            <video id="VisaChipCardVideo" width="700" controls>
+              <source src="s1.mp4" type="video/mp4">
+              <!--Browser does not support <video> tag -->
+            </video>
+          </div>
+
+          <div id="fade" onClick="lightbox_close();"></div>
+
+          <div>
+            <button id="four" href="#" onclick="lightbox_open();">Watch video</button>
+          </div>
+        </div>
+        <div class="extra content">
+          <div class="meta">
+            <a>Views</a>
+          </div>
+          <div class="ui label">
+            <i class="eye icon"></i>
+            <div id="v4"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 5th -->
+
+      <div id="s1" class="ui card">
+
+
+        <div class="content">
+          <div class="header">Sample 5</div>
+          <div id="light">
+            <a class="boxclose" id="boxclose" onclick="lightbox_close();"></a>
+            <video id="VisaChipCardVideo" width="700" controls>
+              <source src="s1.mp4" type="video/mp4">
+              <!--Browser does not support <video> tag -->
+            </video>
+          </div>
+
+          <div id="fade" onClick="lightbox_close();"></div>
+
+          <div>
+            <button id="five" href="#" onclick="lightbox_open();">Watch video</button>
+          </div>
+        </div>
+        <div class="extra content">
+          <div class="meta">
+            <a>Views</a>
+          </div>
+          <div class="ui label">
+            <i class="eye icon"></i>
+            <div id="v5"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 6th -->
+
+      <div id="s1" class="ui card">
+
+
+        <div class="content">
+          <div class="header">Sample 6</div>
+          <div id="light">
+            <a class="boxclose" id="boxclose" onclick="lightbox_close();"></a>
+            <video id="VisaChipCardVideo" width="700" controls>
+              <source src="s1.mp4" type="video/mp4">
+              <!--Browser does not support <video> tag -->
+            </video>
+          </div>
+
+          <div id="fade" onClick="lightbox_close();"></div>
+
+          <div>
+            <button id="six" href="#" onclick="lightbox_open();">Watch video</button>
+          </div>
+        </div>
+        <div class="extra content">
+          <div class="meta">
+            <a>Views</a>
+          </div>
+          <div class="ui label">
+            <i class="eye icon"></i>
+            <div id="v6"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 7th -->
+
+      <div id="s1" class="ui card">
+
+
+        <div class="content">
+          <div class="header">Sample 7</div>
+          <div id="light">
+            <a class="boxclose" id="boxclose" onclick="lightbox_close();"></a>
+            <video id="VisaChipCardVideo" width="700" controls>
+              <source src="s1.mp4" type="video/mp4">
+              <!--Browser does not support <video> tag -->
+            </video>
+          </div>
+
+          <div id="fade" onClick="lightbox_close();"></div>
+
+          <div>
+            <button id="seven" href="#" onclick="lightbox_open();">Watch video</button>
+          </div>
+        </div>
+        <div class="extra content">
+          <div class="meta">
+            <a>Views</a>
+          </div>
+          <div class="ui label">
+            <i class="eye icon"></i>
+            <div id="v7"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 8th -->
+
+      <div id="s1" class="ui card">
+
+
+        <div class="content">
+          <div class="header">Sample 8</div>
+          <div id="light">
+            <a class="boxclose" id="boxclose" onclick="lightbox_close();"></a>
+            <video id="VisaChipCardVideo" width="700" controls>
+              <source src="s1.mp4" type="video/mp4">
+              <!--Browser does not support <video> tag -->
+            </video>
+          </div>
+
+          <div id="fade" onClick="lightbox_close();"></div>
+
+          <div>
+            <button id="eight" href="#" onclick="lightbox_open();">Watch video</button>
+          </div>
+        </div>
+        <div class="extra content">
+          <div class="meta">
+            <a>Views</a>
+          </div>
+          <div class="ui label">
+            <i class="eye icon"></i>
+            <div id="v8"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 9th -->
+
+      <div id="s1" class="ui card">
+
+
+        <div class="content">
+          <div class="header">Sample 9</div>
+          <div id="light">
+            <a class="boxclose" id="boxclose" onclick="lightbox_close();"></a>
+            <video id="VisaChipCardVideo" width="700" controls>
+              <source src="s1.mp4" type="video/mp4">
+              <!--Browser does not support <video> tag -->
+            </video>
+          </div>
+
+          <div id="fade" onClick="lightbox_close();"></div>
+
+          <div>
+            <button id="nine" href="#" onclick="lightbox_open();">Watch video</button>
+          </div>
+        </div>
+        <div class="extra content">
+          <div class="meta">
+            <a>Views</a>
+          </div>
+          <div class="ui label">
+            <i class="eye icon"></i>
+            <div id="v9"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 10th -->
+
+      <div id="s1" class="ui card">
+
+
+        <div class="content">
+          <div class="header">Sample 10</div>
+          <div id="light">
+            <a class="boxclose" id="boxclose" onclick="lightbox_close();"></a>
+            <video id="VisaChipCardVideo" width="700" controls>
+              <source src="s1.mp4" type="video/mp4">
+              <!--Browser does not support <video> tag -->
+            </video>
+          </div>
+
+          <div id="fade" onClick="lightbox_close();"></div>
+
+          <div>
+            <button id="ten" href="#" onclick="lightbox_open();">Watch video</button>
+          </div>
+        </div>
+        <div class="extra content">
+          <div class="meta">
+            <a>Views</a>
+          </div>
+          <div class="ui label">
+            <i class="eye icon"></i>
+            <div id="v10"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+<h2 id="he">Showing Dummy views for some days and videos</h2>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Day</th>
+            <th scope="col">Video</th>
+            <th scope="col">Dummy Views</th>
+
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Video 1</td>
+            <td id="d1"></td>
+            
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Video 2</td>
+            <td id="d2"></td>
+
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Video 3</td>
+            <td id="d3"></td>
+
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>Video 4</td>
+            <td id="d4"></td>
+
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td>Video 5</td>
+            <td id="d5"></td>
+
+          </tr>
+          
+        </tbody>
+      </table>
+
+
+    </div>
+
+  </div>
+
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.3.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-database.js"></script>
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyClclKapcFNQsji-Vqz5HwmoNTGo5BdB5M",
+      authDomain: "aks13-c7e01.firebaseapp.com",
+      databaseURL: "https://aks13-c7e01.firebaseio.com",
+      projectId: "aks13-c7e01",
+      storageBucket: "aks13-c7e01.appspot.com",
+      messagingSenderId: "505712099733",
+      appId: "1:505712099733:web:306c087066ad21eacc769c"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+
+  </script>
+
+
+  <script src="index.js"></script>
+
+</body>
+
+</html>
